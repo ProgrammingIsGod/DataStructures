@@ -23,6 +23,3 @@ STL 컨테이너 성능 비교
 vector, deque, list 각각 push/pop/search 성능 측정
 
 =====================================================================================================
-
-git config --global user.name "ProgrammingIsGod"
-git config --global user.email "attackv00v@gmail.com"
