@@ -11,6 +11,8 @@ class Queue:
         if self.is_full():
             raise QueueError("queue is full")
         self._data.append(value)
+
+        return self
     
     def dequeue(self):
         if self.is_empty():
@@ -54,6 +56,8 @@ class Circular_Queue:
         else:
             self._rear += 1
         self._size += 1
+
+        return self
     
     def dequeue(self):
         if self.is_empty():
@@ -81,6 +85,3 @@ class Circular_Queue:
     
     def __len__(self):
         return self._size
-    
-
-

@@ -56,4 +56,3 @@ class Array:
 
     def __repr__(self):
         return f"[ {', '.join("null" if data is _sentinel else str(data) for data in self._data)} ]"
-
