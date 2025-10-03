@@ -1,7 +1,7 @@
 _sentinel = object()
 
 class Array:
-    def __init__(self, capacity):
+    def __init__(self, capacity: int):
         self._capacity = capacity
         self._size = 0
         self._data = [_sentinel] * capacity
